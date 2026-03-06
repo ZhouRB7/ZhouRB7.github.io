@@ -226,7 +226,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -238,7 +238,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "zhourb7.github.io/posts/"
+      path: ""
       type: posts
     values:
       layout: single
@@ -256,7 +256,7 @@ defaults:
       author_profile: true
   # _teaching
   - scope:
-      path: "zhourb7.github.io/teaching/"
+      path: ""
       type: teaching
     values:
       layout: single
@@ -265,7 +265,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: "zhourb7.github.io/publications/"
+      path: ""
       type: publications
     values:
       layout: single
@@ -274,7 +274,7 @@ defaults:
       comments: true
   # _projects
   - scope:
-      path: "zhourb7.github.io/projects/"
+      path: ""
       type: projects
     values:
       layout: single
@@ -283,7 +283,7 @@ defaults:
       comment: true
   # _talks
   - scope:
-      path: "zhourb7.github.io/talks/"
+      path: ""
       type: talks
     values:
       layout: talk
