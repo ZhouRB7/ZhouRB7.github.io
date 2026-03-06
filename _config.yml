@@ -249,7 +249,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "zhourb7.github.io/"
+      path: ""
       type: pages
     values:
       layout: single
